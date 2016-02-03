@@ -6,7 +6,7 @@ A ready to use development workflow with the following capabilities:
 - Dependency management: npm (Webpack)
 - Code quality checking: eslint-loader
 - Code transpiling: babel-loader
-- CSS Post-processing: style-loader, css-loader, and postcss-loader along with extract-text-webpack-plugin.
+- CSS Post-processing: style-loader, css-loader, and postcss-loader along with extract-text-webpack-plugin
 - Code minification: Webpack built in plugin UglifyJsPlugin
 - Assets optimization: img-loader along with file-loader and url-loader
 - Setup and launch a local webserver: webpack-dev-server
