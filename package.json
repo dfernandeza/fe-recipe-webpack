@@ -1,0 +1,46 @@
+{
+  "name": "fe-recipe-webpack",
+  "version": "1.0.0",
+  "description": "A modern FE development workflow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval-source-map --progress --colors --inline --hot --content-base dist",
+    "start": "npm run dev",
+    "test": "./node_modules/karma/bin/karma start",
+    "build": "webpack -d"
+  },
+  "author": "Daniel Fernandez @dfernandeza",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "cssnano": "^3.4.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-loader": "^1.2.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.7.2",
+    "img-loader": "^1.2.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.3",
+    "postcss-loader": "^0.8.0",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

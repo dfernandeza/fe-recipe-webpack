@@ -1,0 +1,10 @@
+/* Base imports */ 
+@import './base/variables';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	color: $base-font-color;
+}
